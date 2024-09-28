@@ -1,5 +1,6 @@
 import os
 from bannergraby import banner
+from portscanner import scan_ports
 
 
 print("Sistema para pruebas de seguridad informática")
@@ -58,6 +59,11 @@ while x:
             print("Wad")
         elif opcion == 6:
             print("Escaneo de Puertos")
+            vistima = input("Ingrese el dominio o IP: ")
+            print("Escaneo de Puertos")
+            scan_ports(vistima)  # Llamamos a la función scan_ports
+            input("Presione Enter para continuar...")
+            os.system("cls")
         elif opcion == 7:
             print("Saliendo del sistema...")
             x = False
