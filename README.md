@@ -32,3 +32,4 @@ Instalación
 git clone https://github.com/tu_usuario/network-tools.git
 
 Puedes copiar y pegar este contenido en tu archivo `README.md` para que aparezca en tu repositorio.
+NOTA: EN LA RAMA DEV ENCONTRARÁ MAYOR INFORMACIÓN NO TERMINADA PERO FUNCIONAL
